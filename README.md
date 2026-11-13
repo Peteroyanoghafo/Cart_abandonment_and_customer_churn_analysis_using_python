@@ -33,9 +33,9 @@
 
 ## Project Overview
 
-Cart abandonment and customer churn represent two of the most critical revenue leaks in modern digital commerce. In developing markets like Nigeria, these challenges are heavily compounded by structural factors—including payment gateway friction, delivery reliability, and real-time inventory discrepancies.
+Cart abandonment and customer churn represent two of the most critical revenue leaks in modern e-commerce. In developing markets like Nigeria, these challenges are heavily compounded by structural factors including payment gateway friction, delivery reliability, and real-time inventory discrepancies.
 
-This capstone project analyzes **50,000 transactional and behavioral e-commerce records** across major Nigerian marketplaces (**Jumia**, **Konga**, and **PayPorte**) to map customer drop-off points, quantify baseline revenue leakage, segment user cohorts, and formulate actionable recovery strategies.
+This project analyzes **50,000 transactional and behavioral e-commerce records** across major Nigerian marketplaces (**Jumia**, **Konga**, and **PayPorte**) to map customer drop-off points, quantify baseline revenue leakage, segment user cohorts, and formulate actionable recovery strategies.
 
 ---
 
@@ -65,7 +65,7 @@ This capstone project analyzes **50,000 transactional and behavioral e-commerce 
 ### Step 2: Data Preparation & Feature Engineering
 >  **[ Phase Illustration: Data Transformation & Custom Metric Creation ]**
 * **Lifecycle Role:** Bridged raw operational logs with behavioral analysis requirements.
-* **Execution:** Engineered derived variables and binary indicator flags—including `is_high_abandonment` and `Churn_Risk_Flag`—to isolate high-risk behavior and normalize numerical scales across clicks, inventory levels, and purchase frequencies.
+* **Execution:** Engineered derived variables and binary indicator flags including `is_high_abandonment` and `Churn_Risk_Flag` to isolate high-risk behavior and normalize numerical scales across clicks, inventory levels, and purchase frequencies.
 
 ---
 
@@ -142,8 +142,3 @@ This capstone project analyzes **50,000 transactional and behavioral e-commerce 
 * Python 3.9+
 * Jupyter Notebook / JupyterLab
 
-### Installation & Execution
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/ecommerce-cart-abandonment-churn-analytics.git
-   cd ecommerce-cart-abandonment-churn-analytics
